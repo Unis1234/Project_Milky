@@ -1,0 +1,114 @@
+.container33 {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.scroll-container33 {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.title33 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.label33 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+  color: #555;
+}
+
+.picker33,
+.text-area33,
+.text-two33 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.text-area33 {
+  height: 80px;
+  resize: vertical;
+}
+
+.image-picker-button33 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.image-picker-button33:hover {
+  background-color: #0056b3;
+}
+
+.image33 {
+  display: block;
+  max-width: 100%;
+  max-height: 200px;
+  margin: 15px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button33 {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button33:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 600px) {
+  .container33 {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .title33 {
+    font-size: 20px;
+  }
+
+  .label33 {
+    font-size: 14px;
+  }
+
+  .picker33,
+  .text-area33,
+  .text-two33,
+  .button33,
+  .image-picker-button33 {
+    font-size: 12px;
+    padding: 8px;
+
+  }
+}
